@@ -5,6 +5,7 @@
 .. all-images:: python
 :target: https://github.com/Web4application/Openpyxl.git
 .. run:: conda-build
+---
 - [Audit Logs](https://anaconda.com/docs/anaconda-platform/cloud/admin/audit-logs/audit-log.md)
 - [Channel management](https://anaconda.com/docs/anaconda-platform/cloud/admin/channels.md)
 - [Registering conda for your organization](https://anaconda.com/docs/anaconda-platform/cloud/admin/conda-registration-admin.md)
