@@ -1,5 +1,10 @@
-## Docs
-
+---
+.. tittle: openpyxl
+.. image:: mystpyxl
+.. code-block:: python
+.. all-images:: python
+:target: https://github.com/Web4application/Openpyxl.git
+.. run:: conda-build
 - [Audit Logs](https://anaconda.com/docs/anaconda-platform/cloud/admin/audit-logs/audit-log.md)
 - [Channel management](https://anaconda.com/docs/anaconda-platform/cloud/admin/channels.md)
 - [Registering conda for your organization](https://anaconda.com/docs/anaconda-platform/cloud/admin/conda-registration-admin.md)
@@ -36,51 +41,41 @@
 - [Individual subscriptions](https://anaconda.com/docs/anaconda-platform/cloud/user/subscriptions.md)
 - [Tokens](https://anaconda.com/docs/anaconda-platform/cloud/user/tokens.md)
 - [Search all of Anaconda](https://anaconda.com/docs/anaconda-platform/cloud/user/unified-search.md)
-- [Create Export Job](https://anaconda.com/docs/api-reference/create-export-job.md): Create a bulk export job that writes audit logs in JSON Lines format.
-- [Download Export](https://anaconda.com/docs/api-reference/download-export.md): Stream the exported audit log data for the specified job in JSON Lines format from the backing store.
-- [Get api](https://anaconda.com/docs/api-reference/get-api.md): Returns application information
-- [Get Audit Log](https://anaconda.com/docs/api-reference/get-audit-log.md): Retrieve a single audit log entry by its unique identifier.
-- [Get Audit Logs](https://anaconda.com/docs/api-reference/get-audit-logs.md): Retrieve audit logs with support for search, sorting, pagination, and optional date filtering.
-- [Get Export Job Status](https://anaconda.com/docs/api-reference/get-export-job-status.md): Retrieve the current status of an export job and, when available, the download URL for the exported data.
+- [Create Export Job](https://anaconda.com/docs/api-reference/create-export-job.md)
+- Create a bulk export job that writes audit logs in JSON Lines format.
+- [Download Export](https://anaconda.com/docs/api-reference/download-export.md)
+- Stream the exported audit log data for the specified job in JSON Lines format from the backing store.
+- [Get api](https://anaconda.com/docs/api-reference/get-api.md)
+-  Returns application information
+- [Get Audit Log](https://anaconda.com/docs/api-reference/get-audit-log.md)
+-  Retrieve a single audit log entry by its unique identifier.
+- [Get Audit Logs](https://anaconda.com/docs/api-reference/get-audit-logs.md) Retrieve audit logs with support for search, sorting, pagination, and optional date filtering.
+- [Get Export Job Status](https://anaconda.com/docs/api-reference/get-export-job-status.md) Retrieve the current status of an export job and, when available, the download URL for the exported data.
 - [Check the health of the models API](https://anaconda.com/docs/api-reference/models/check-the-health-of-the-models-api.md)
 - [Delete a model file](https://anaconda.com/docs/api-reference/models/delete-a-model-file.md)
-- [Get all models](https://anaconda.com/docs/api-reference/models/get-all-models.md): Retrieves a list of models, either from the entire catalog or only those downloaded locally
+- [Get all models](https://anaconda.com/docs/api-reference/models/get-all-models.md)
+-  Retrieves a list of models, either from the entire catalog or only those downloaded locally
 - [Get details of a specific model file](https://anaconda.com/docs/api-reference/models/get-details-of-a-specific-model-file.md)
 
-- [Get model details by ID](https://anaconda.com/docs/api-reference/models/get-model-details-by-id.md): Retrieves detailed information about a specific model, including its metadata and files
-
+- [Get model details by ID](https://anaconda.com/docs/api-reference/models/get-model-details-by-id.md)
+-  Retrieves detailed information about a specific model, including its metadata and files
 - [List all files for a specific model](https://anaconda.com/docs/api-reference/models/list-all-files-for-a-specific-model.md)
-
 - [Update download status of a model file](https://anaconda.com/docs/api-reference/models/update-download-status-of-a-model-file.md)
-
 - [Check the health of the servers API](https://anaconda.com/docs/api-reference/servers/check-the-health-of-the-servers-api.md)
-
 - [Control server state (start/stop)](https://anaconda.com/docs/api-reference/servers/control-server-state-startstop.md)
-
 - [Create a new server](https://anaconda.com/docs/api-reference/servers/create-a-new-server.md)
-
 - [Delete a server](https://anaconda.com/docs/api-reference/servers/delete-a-server.md)
-
 - [Get all servers](https://anaconda.com/docs/api-reference/servers/get-all-servers.md)
-
 - [Get server details by ID](https://anaconda.com/docs/api-reference/servers/get-server-details-by-id.md)
-
 - [Check the health of the vector database API](https://anaconda.com/docs/api-reference/vectordb/check-the-health-of-the-vector-database-api.md)
-
 - [Create a new table in the vector database](https://anaconda.com/docs/api-reference/vectordb/create-a-new-table-in-the-vector-database.md)
-
 - [Delete a table from the vector database](https://anaconda.com/docs/api-reference/vectordb/delete-a-table-from-the-vector-database.md)
-
 - [Get all tables in the vector database](https://anaconda.com/docs/api-reference/vectordb/get-all-tables-in-the-vector-database.md)
-
 - [Initialize the vector database](https://anaconda.com/docs/api-reference/vectordb/initialize-the-vector-database.md)
-
 - [Start or stop the vector database](https://anaconda.com/docs/api-reference/vectordb/start-or-stop-the-vector-database.md)
--
 - - [Developer reference library](https://anaconda.com/docs/developer-reference/library.md)
   -
   - - [Installing Anaconda on an air-gapped machine](https://anaconda.com/docs/getting-started/anaconda/advanced-install/air-gap.md)
-
 - [Installing the anaconda metapackage](https://anaconda.com/docs/getting-started/anaconda/advanced-install/install-metapackage.md)
 -
 - - [Advanced installation](https://anaconda.com/docs/getting-started/anaconda/advanced-install/main.md)
@@ -265,24 +260,24 @@
 - [renovate](https://anaconda.com/docs/renovate.json)
 - [.pre-commit-config](https://anaconda.com/docs/.pre-commit-config.yaml)
 - [openapi](https://anaconda.com/docs/api-reference/openapi.json)
-- 
+---
 
-```Openpyxl 
+# Openpyxl
 
 powered by local multifunctional local model
 
-`In :[26]: s["f"]`
-Traceback (most recent call last)
+:[conda-build]:: python -o
+In :[26]: s["f"]Traceback (most recent call last)
 File 
-
-`~/work/pandas/pandas/pandas/core/indexes/base.py:3641`,
+~/work/pandas/pandas/pandas/core/indexes/base.py:3641
 in Index.get_loc(self, key)
 3640 try: -> 3641     return self._engine.get_loc(casted_key)
    3642 except KeyError as err:
-File `~/work/pandas/pandas/pandas/_libs/index.pyx:168`, in pandas._libs.index.IndexEngine.get_loc()
-File `~/work/pandas/pandas/pandas/_libs/index.pyx:197, in pandas._libs.index.IndexEngine.get_loc()
+File
+/work/pandas/pandas/pandas/_libs/index.pyx:168`,
+`in pandas._libs.index.IndexEngine.get_loc()
+File ~/work/pandas/pandas/pandas/_libs/index.pyx:197, in pandas._libs.index.IndexEngine.get_loc()
 File pandas/_libs/hashtable_class_helper.pxi:7668, in pandas._libs.hashtable.PyObjectHashTable.get_item()`
-
 `File pandas/_libs/hashtable_class_helper.pxi:7676, in pandas._libs.hashtable.PyObjectHashTable.get_item()
 KeyError: 'f'
 The above exception was the direct cause of the following exception:
@@ -328,8 +323,10 @@ Out[69]:
 A    1    2      3
 B    4    5      6`
 
-```conda-build  https://openpyxl.anaconda.org
-   https://docs.conda.io/
+    
+.. [conda-build]: python-o
+(https://docs.openoyxl.org)
+(https://docs.openoyxl.io/)       
 jIn [124]: baseball = pd.read_csv("data/baseball.csv")
 In [125]: print(baseball)
 id     player  year  stint team  lg  
@@ -371,35 +368,39 @@ Data columns (total 23 columns):
  22  gidp    100 non-null    float64
 dtypes: float64(9), int64(11), str(3)
 memory usage: 19.5 KB
-```
+``
 [Openpyxl.io](https://fastht.ml)
 
 :target: https://docs.Openpyxl.io/
 
 .. code-block:: python
-
-```
+              
 python3 --version
 python3 -m pip install --upgrade pip
 python3 -m pip install virtualenv
 mkdir fab_app
 cd fab_app
 python3 -m virtualenv venv
-source venv/bin/activate  # Linux/macOS
+source venv/bin/activate 
+              # Linux/macOS
 On Windows: venv\Scripts\activate
 pip install Flask-AppBuilder[all]
 pip install psycopg2-binary
 fabmanager create-app openpyxl
 cd openpyxl
 flask fab create-db
-pip install flask-jwt-extended psycopg2-binary
+              
+pip install flask-jwt-extended 
+              
+              psycopg2-binary
 https://conda.anaconda.org/domains?qkey=189E7A60D76622CCE002FFDD46C7D510&ip=1.1.1.1pypi-AgEIcHlwaS5vcmcCJGRmZmNhN2MxLTcwY2EtNGY5NS04ZjIxLWUzZDc2OWRiOWI4NwACKlszLCJmZTE2YmMzMC0xZWUyLTQ4OTktOTM2Yy0xMTUyMTk2MjE3YWMiXQAABiCj8njZJ7PgJnMJ-n9g4h0_fgkojUUwuOeEUeKE3aN7gw
+              
+            
+```bash
 conda install anaconda-client conda-build
+``
+
 ```
-
-``
-
-``
 # Uploading and installing conda package
 
 Anaconda.org is a centralized package <Tooltip tip="Any storage location from which software or software assets, like packages, can be retrieved and installed on a local computer.">repository</Tooltip> and distribution platform for the conda ecosystem. The site enables you to both upload your own conda packages and discover conda packages created by other users.
@@ -410,7 +411,7 @@ Anaconda.org is a centralized package <Tooltip tip="Any storage location from wh
 
 ## Uploading conda packages
 
-This example shows how to build and upload a [conda](https://docs.conda.io/projects/conda-build/en/stable/index.html) package to Anaconda.org using `conda build`.
+This example shows how to build and upload a [conda](https://docs.conda.io/projects/conda-build/en/stable/index.html) package to Anaconda.org using `conda-build`.
 
 1. Open Anaconda Prompt (Terminal on macOS/Linux).
 
@@ -450,7 +451,7 @@ This example shows how to build and upload a [conda](https://docs.conda.io/proje
    </Tip>
 
 5. Upload the test package to Anaconda.org by running the `anaconda upload` command:
-```sh 
+```python-m
 `In [90]: (
    ....:     iris.query("SepalLength > 5")
    ....:     .assign(
@@ -462,10 +463,15 @@ This example shows how to build and upload a [conda](https://docs.conda.io/proje
    ....: 
 Out[90]: <Axes: xlabel='SepalRatio', ylabel='
 ```
-   ```bash  theme={null}
+  ```bash  theme={null}
    anaconda login
-   # Replace </PATH/TO/PACKAGE_NAME> with the correct file path and package name
-   # Packages can be uploaded with .tar.bz2 or .conda compression formats
+```
+`
+   # Replace 
+   </PATH/TO/PACKAGE_NAME> with the correct file path and package name
+  Packages can be uploaded with `.tar.bz2 `or `.conda` compression formats
+  
+  ```python-o
    anaconda upload </PATH/TO/PACKAGE_NAME>.tar.bz2
    anaconda upload </PATH/TO/PACKAGE_NAME>.conda
 In [131]: datafile = {
@@ -491,9 +497,9 @@ Out[135]:
       filename                                           path
 0  filename_01  media/user_name/storage/folder_01/filename_01
 1  filename_02  media/user_name/storage/folder_02/filename_02
-```
+``
 For more information on the `.conda` format, see [Using the .conda compression format](/tools/anaconda-org/user-guide/packages/manage-packages#using-the-conda-compression-format).
-
+  ```
 For more information on conda's overall build framework, see [Building conda packages](https://docs.conda.io/projects/conda-build/en/stable/concepts/recipe.html) in the official conda docs.
 
 ## Installing conda packages
@@ -520,13 +526,18 @@ You can install conda packages from Anaconda.org by adding <Tooltip tip="A locat
 
 You can install a package from a private channel with a <Tooltip tip="A randomly generated string that proves your identity and permission to access resources like channels, packages, or APIs.">token</Tooltip> and a [Label](/tools/anaconda-org/user-guide/work-with-labels):
 
-```sh  theme={null}
-# Replace <TOKEN> with the provided token
-# Replace <CHANNEL> with a user channel
-# Replace <LABEL_NAME> with the label name
-# Replace <PACKAGE> with the name of the package you want to install
-conda install --channel https://conda.anaconda.org/t/<TOKEN>/<CHANNEL>/label/<LABEL_NAME> <PACKAGE>
-```
+``sh  
+theme={null}
+# 
+Replace <TOKEN> with the provided token
+# 
+Replace <CHANNEL> with a user channel
+# 
+Replace <LABEL_NAME> with the label name
+# 
+Replace <PACKAGE> with the name of the package you want to install
+conda `install --channel https://conda.anaconda.org/t/<TOKEN>/<CHANNEL>/label/<LABEL_NAME> <PACKAGE>`
+``
 
 Tokens are only required if the channel is private.
 
@@ -541,14 +552,14 @@ i
 
 To list the options, run the following in Anaconda Prompt (Terminal on macOS/Linux):
 
-```sh  theme={null}
+```sh
+theme={null}
 anaconda upload -h
 ```
 
-
+```jsx
 import pandas as pd
 import os
-
 def load_excel(file_path):
     # Normalize .xlsl to .xlsx
     if file_path.endswith(".xlsl"):
@@ -566,22 +577,19 @@ def save_excel(writer_path, dfs: dict):
         for sheet, df in dfs.items():
             df.to_excel(writer, sheet_name=sheet, index=False)
 
-
-
+    ``
+  ```
 ***Openpyxl*** powered by local multifunctional local model
 
 
 .. image:: 
    .. all-code-block:: 
    ..all-images::
-   :target: 
-   https://github.com/Web4application/Openpyxl
-
-
-
+   :target: https://github.com/Web4application/Openpyxl
 # Quick start overide into 
 [openpyxl/index.html#index.md]
-.. code-block:: python
+
+.. code-block: python
 python3 --version
 python3 -m pip install --upgrade pip
 python3 -m pip install virtualenv
@@ -589,8 +597,8 @@ mkdir fab_app
 cd fab_app
 python3 -m virtualenv venv
 source venv/bin/activate  
+```
 # Linux/macOS
-
 On Windows: venv\Scripts\activate
 `pip install Flask-AppBuilder[all]
 pip install psycopg2-binary
@@ -600,7 +608,7 @@ flask fab create
 pip install flask-jwt-extended psycopg2-binary
 https://conda.anaconda.org/domains?qkey=189E7A60D76622CCE002FFDD46C7D510&ip=0.0.0.0pypi-AgEIcHlwaS5vcmcCJGRmZmNhN2MxLTcwY2EtNGY5NS04ZjIxLWUzZDc2OWRiOWI4NwACKlszLCJmZTE2YmMzMC0xZWUyLTQ4OTktOTM2Yy0xMTUyMTk2MjE3YWMiXQAABiCj8njZJ7PgJnMJ-n9g4h0_fgkojUUwuOeEUeKE3aN7gw`
 conda install anaconda-client conda-build
-```
+``
 
 ```
 # Uploading and installing conda packages
@@ -654,13 +662,17 @@ There are two required files in the example package:
 
 5. Upload the test package to Anaconda.org by running the `anaconda upload` command:
 
-   ```sh  theme={null}
+   ```sh
+   theme={null}
    anaconda login
-
-   # Replace </PATH/TO/PACKAGE_NAME> with the correct file path and package name
-   # Packages can be uploaded with .tar.bz2 or .conda compression formats
+  ``
+   # Replace 
+   </PATH/TO/PACKAGE_NAME> with the correct file path and package name
+   ``
+   Packages can be uploaded with .tar.bz2 or .conda compression formats
    anaconda upload </PATH/TO/PACKAGE_NAME>.tar.bz2
    anaconda upload </PATH/TO/PACKAGE_NAME>.conda
+   
  ``openpyxl
 
 
@@ -693,7 +705,8 @@ You can install conda packages from Anaconda.org by adding <Tooltip tip="A locat
 
 You can install a package from a private channel with a <Tooltip tip="A randomly generated string that proves your identity and permission to access resources like channels, packages, or APIs.">token</Tooltip> and a [Label](/tools/anaconda-org/user-guide/work-with-labels):
 
-```sh  theme={null}
+```pytho -i
+theme={null}
 # Replace <TOKEN> with the provided token
 # Replace <web4application> with a user channel
 # Replace <conda> with the label name
@@ -714,11 +727,12 @@ You can obtain a complete list of upload options, including:
 
 To list the options, run the following in Anaconda Prompt (Terminal on macOS/Linux):
 
-```sh  theme={null}
+```sh
+theme={null}
 anaconda upload -h
 ```
 
-```python
+``` python -o
 import pandas as pd
 import os
 def load_excel(file_path):
@@ -737,6 +751,12 @@ def save_excel(writer_path, dfs: dict):
     with pd.ExcelWriter(writer_path, engine="openpyxl") as writer:
         for sheet, df in dfs.items():
             df.to_excel(writer, sheet_name=sheet, index=False)
+# Save it once
+df.to_parquet("data.parquet")
+
+# Next time, load this instead of the Excel file
+df = pd.read_parquet("data.parquet")
+
 ```
 # pybars3 - Handlebars.js for Python 3 and 2
 
