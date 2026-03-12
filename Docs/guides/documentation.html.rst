@@ -6,6 +6,12 @@
 :target: https://github.com/Web4application/Openpyxl.git
 .. run:: conda-build
 ---
+
+***Openpyxl*** powered by local multifunctional local model
+
+.. image:: 
+   .. code-block:: python
+   ..all-images::
 - [Audit Logs](https://anaconda.com/docs/anaconda-platform/cloud/admin/audit-logs/audit-log.md)
 - [Channel management](https://anaconda.com/docs/anaconda-platform/cloud/admin/channels.md)
 - [Registering conda for your organization](https://anaconda.com/docs/anaconda-platform/cloud/admin/conda-registration-admin.md)
@@ -267,7 +273,7 @@
 
 powered by local multifunctional local model
 
-:[conda-build]:: python -o
+:[conda-build]: python -o
 In :[26]: s["f"]Traceback (most recent call last)
 File 
 ~/work/pandas/pandas/pandas/core/indexes/base.py:3641
@@ -493,7 +499,7 @@ Out[133]:
 
 In [134]: pd.set_option("display.max_colwidth", 100)
 
-In [135]: pd.DataFrame(datafile)
+In :[135]: pd.DataFrame(datafile)
 Out[135]: 
       filename                                           path
 0  filename_01  media/user_name/storage/folder_01/filename_01
@@ -582,7 +588,6 @@ def save_excel(writer_path, dfs: dict):
   ```
 ***Openpyxl*** powered by local multifunctional local model
 
-
 .. image:: 
    .. all-code-block:: 
    ..all-images::
@@ -592,8 +597,7 @@ def save_excel(writer_path, dfs: dict):
 
 .. code-block: python
 python3 --version
-python3 -m pip install --upgrade pip
-python3 -m pip install virtualenv
+python3 -m pip install --upgrade pip python3 -m pip install virtualenv
 mkdir fab_app
 cd fab_app
 python3 -m virtualenv venv
